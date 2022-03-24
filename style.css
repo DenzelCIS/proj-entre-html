@@ -1,0 +1,56 @@
+.header{
+    height: 150px;
+    width: auto;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    margin: 0px;
+}
+
+.headercontent{
+    height: 100px;
+    width: 75%;
+    background-color: red;
+}
+
+.about{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1{
+    height: 400px;
+    background-color: royalblue;
+    width: 29%;
+}
+.image1{
+    height: 500px;
+    background-color: salmon;
+    width: 46%;
+}
+
+.line2{
+    font-size: 50px;
+    color: springgreen;
+}
+
+.line1, .line3{
+    font-size: 50px;
+}
+
+.line4{
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.whyrm{
+    height: 250px;
+    background-image: linear-gradient(white, #C2F6CE);
+    text-align: center;
+}
