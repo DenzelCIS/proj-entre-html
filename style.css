@@ -9,6 +9,7 @@
 
 body{
     margin: 0px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
 }
 
 .headercontent{
@@ -18,30 +19,30 @@ body{
 }
 
 .about{
-    height: 500px;
+    height: 600px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .text1{
     height: 400px;
-    background-color: royalblue;
     width: 29%;
 }
-.image1{
-    height: 500px;
-    background-color: salmon;
-    width: 46%;
+.image1 img{
+    height: 600px;
 }
 
 .line2{
     font-size: 50px;
-    color: springgreen;
+    font-weight: bold;
+    color: #80bc3c;
 }
 
 .line1, .line3{
     font-size: 50px;
+    font-weight: bold;
+    line-height: 1.4;
 }
 
 .line4{
@@ -50,7 +51,8 @@ body{
 }
 
 .whyrm{
-    height: 250px;
-    background-image: linear-gradient(white, #C2F6CE);
+    height: 634px;
+    left: 0px;
     text-align: center;
+    background: linear-gradient(360deg, #E0F1CE 0%, rgba(224, 241, 206, 0) 100%);
 }
