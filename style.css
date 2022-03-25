@@ -45,9 +45,19 @@ body{
     line-height: 1.4;
 }
 
+.line5{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
 .line4{
     font-size: 20px;
     line-height: 1.8;
+}
+
+.line6{
+    font-size: 25px;
 }
 
 .whyrm{
@@ -55,4 +65,34 @@ body{
     left: 0px;
     text-align: center;
     background: linear-gradient(360deg, #E0F1CE 0%, rgba(224, 241, 206, 0) 100%);
+}
+
+.jualmarketres{
+    height: 505px;
+}
+
+.jualmarketres{
+    display: flex;
+    justify-content: center;
+
+}
+
+.whyrmil{
+    height: 370px;
+    width: 270px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 16px;
+    margin-top: 63px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 30px;
+}
+
+.whyrmil img{
+    height: 90px;
+    width: 90px;
+    margin: 30px;
 }
