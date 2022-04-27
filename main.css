@@ -1,0 +1,289 @@
+body {
+    background-image: linear-gradient(#fff, #fff, #fff, #fff, #E0F1CE, #E0F1CE, #fff, #fff);
+}
+
+header, .content {
+    margin: 0; padding: 50px 100px 0 100px; border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rightHeader {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    list-style-type: none;
+}
+
+.rightHeader li {
+    margin: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.freeButton {
+    padding: 20px;
+    display: flex;
+}
+
+.freeButton li {
+    padding: 20px;
+}
+
+.freeButton #on {
+    font-weight: bold;
+    color: #93D250;
+}
+
+.freeButton li a {
+    color: #181818;
+    text-decoration: none;
+}
+
+.freeButton li a:hover {
+    color: #93D250;
+}
+
+.borderedButton {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+}
+
+.borderedButton li {
+    align-items: center;
+}
+
+.borderedButton li a {
+    border: 1.5px solid #93D250;
+    border-radius: 50px;
+    align-items: center;
+    text-decoration: none;
+}
+
+#signUp {
+    align-items: center;
+}
+
+#signUp a {
+    padding: 10px 30px;
+    color: #181818;
+}
+
+#signIn {
+    align-items: center;
+}
+
+#signIn a {
+    padding: 10px 34px;
+    color: #fff;
+    background-color: #93D250;
+}
+
+.about {
+    padding: 150px 0 80px 0;
+    display: inline-flex;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.leftAbout {
+    padding: 0 30px;
+    position: absolute;
+}
+
+#titleAbout {
+    font-size: 60px;
+    font-weight: bold;
+    color: #181818;
+}
+
+#titleAbout span {
+    color: #93D250;
+}
+
+#descriptionAbout {
+    padding: 35px 0 0 0;
+    line-height: 35px;
+    font-size: 23px;
+    font-weight: 400;
+    color: #181818;
+}
+
+.rightAbout {
+    position: relative;
+    left: 540px;
+    top: -80px;
+}
+
+.rightAbout img {
+    width: 90%;
+}
+
+.illustratorAbout {
+    position: relative;
+}
+
+.blobAbout {
+    position: absolute;
+}
+
+.whyrm {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.whyrm h1 {
+    color: #181818;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.whyrm h1 span {
+    color: #93D250;
+}
+
+.whyrmContent {
+    display: flex;
+    justify-content: center;
+    margin: 0; padding: 35px 0 0 0; border: 0;
+}
+
+.whyrmBox {
+    margin: 40px;
+    background-color: #fff;
+    width: 350px;
+    height: 420px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 15px #ccc;
+}
+
+.boxContent {
+    align-items: center;
+    background-color: #fff;
+    display: block;
+    width: 280px;
+    height: 290px;
+}
+
+.boxContent img {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    object-fit: fill;
+}
+
+.boxContent h5 {
+    margin: 0; padding: 0; border: 0;
+    text-align: center;
+}
+
+.boxContent h6 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0; padding: 30px 0 0 0; border: 0;
+}
+
+.boxContent p {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0; padding: 17.5px 0 0 0; border: 0;
+}
+
+#sellImg {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.testimony {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.testimony h1 {
+    color: #181818;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0; padding: 150px 0 0 0; border: 0;
+}
+
+.testimony h1 span {
+    color: #93D250;
+    font-size: 40px;
+    margin: 0; padding: 0; border: 0;
+}
+
+.testimonialBox {
+    position: relative;
+}
+
+.container {
+    margin: 0; padding: 35px 0 0 0; border: 0;
+    display: relative;
+}
+
+.text {
+    z-index: 100;
+    position: absolute;
+    line-height: 35px;
+    font-size: 28px;
+    left: 200px;
+    right: 25px;
+    top: 87.5px;
+}
+
+.clients {
+    text-align: center;
+    margin: 0; padding: 0 0 100px 0; border: 0;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #181818;
+    width: 100%;
+    height: 315px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+}
+
+.innerFooter {
+    display: inline-flex;
+    align-items: center;
+}
+
+#copyright {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.leftFooter {
+    padding: 0 350px 0 0;
+}
+
+.rightFooter {
+    padding: 0 0 0 350px;
+    display: flex;
+    list-style-type: none;
+}
+
+.rightFooter li {
+    padding: 0 0 0 10px;
+    filter: invert();
+}
