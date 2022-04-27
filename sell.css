@@ -1,0 +1,218 @@
+body {
+    background-image: linear-gradient(#fff, #E0F1CE);
+}
+
+header, .content {
+    margin: 0; padding: 50px 100px 0 100px; border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rightHeader {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    list-style-type: none;
+}
+
+.rightHeader li {
+    margin: 5px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.freeButton {
+    padding: 20px;
+    display: flex;
+}
+
+.freeButton li {
+    padding: 20px;
+}
+
+.freeButton #on {
+    font-weight: bold;
+    color: #93D250;
+}
+
+.freeButton li a {
+    color: #181818;
+    text-decoration: none;
+}
+
+.freeButton li a:hover {
+    color: #93D250;
+}
+
+.borderedButton {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+}
+
+.borderedButton li {
+    align-items: center;
+}
+
+.borderedButton li a {
+    border: 1.5px solid #93D250;
+    border-radius: 50px;
+    align-items: center;
+    text-decoration: none;
+}
+
+#signUp {
+    align-items: center;
+}
+
+#signUp a {
+    padding: 10px 30px;
+    color: #181818;
+}
+
+#signIn {
+    align-items: center;
+}
+
+#signIn a {
+    padding: 10px 34px;
+    color: #fff;
+    background-color: #93D250;
+}
+
+.content {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+#title {
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 60px;
+    width: 350px;
+}
+
+#description {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-left: 60px;
+    width: 400px;
+}
+
+#image img {
+    width: 180%;
+}
+
+.leftContent {
+    display: flex;
+    align-items: center;
+}
+
+.selltoJunkman, .selltoMarketplace {
+    margin: 30px;
+    background-color: #fff;
+    width: 295px;
+    height: 230px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 7.5px 10px #ccc;
+}
+
+.boxContent {
+    align-items: center;
+    background-color: #fff;
+    display: block;
+    width: 250px;
+    height: 200px;
+}
+
+.boxContent img {
+    display: inline-flex;
+    width: 80px;
+    height: 80px;
+    object-fit: fill;
+}
+
+.boxContent h5 {
+    margin: 0; padding: 0; border: 0;
+    text-align: center;
+}
+
+.boxContent h6 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0; padding: 20px 0 0 0; border: 0;
+}
+
+.boxContent p {
+    text-align: center;
+    font-size: 23px;
+    font-weight: 400;
+    margin: 0; padding: 15px 0 0 0; border: 0;
+}
+
+#junkmanImg {
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+    margin-top: 75px;
+}
+
+.rightContent {
+    margin-left: 75px;
+}
+
+footer {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #181818;
+    width: 100%;
+    height: 315px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+}
+
+.innerFooter {
+    display: inline-flex;
+    align-items: center;
+}
+
+#copyright {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.leftFooter {
+    padding: 0 350px 0 0;
+}
+
+.rightFooter {
+    padding: 0 0 0 350px;
+    display: flex;
+    list-style-type: none;
+}
+
+.rightFooter li {
+    padding: 0 0 0 10px;
+    filter: invert();
+}
